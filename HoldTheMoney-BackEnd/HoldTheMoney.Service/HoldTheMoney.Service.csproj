@@ -1,14 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk">
 
+ 
   <ItemGroup>
     <ProjectReference Include="..\HoldTheMoney.Domain\HoldTheMoney.Domain.csproj" />
-    <ProjectReference Include="..\HoldTheMoney.Service\HoldTheMoney.Service.csproj" />
-    <ProjectReference Include="..\HoldTheMoney.Infra\HoldTheMoney.Infra.csproj" />
   </ItemGroup>
 
+ 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
-
 
 </Project>
